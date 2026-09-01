@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comités Mendoza — Sumate a los comités</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <div class="logo"><span class="dot"></span>COMITÉS MENDOZA</div>
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#comites">Comités</a></li>
+        <li><a href="#encuesta">Encuesta</a></li>
+        <li><a href="#novedades">Novedades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a href="#aporta" class="btn-aporta">Aportá</a>
+    <button class="burger" id="burgerBtn" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- ================= INICIO / CARRUSEL ================= -->
+<section id="inicio" class="hero">
+  <div class="slides" id="slides">
+
+    <div class="slide active">
+      <div class="slide-bg bg-red"></div>
+      <div class="slide-content">
+        <div class="slide-inner">
+          <span class="eyebrow-poster">Comités Mendoza</span>
+          <h1>Sumate a los comités por un partido de la <span class="accent">nueva clase trabajadora</span></h1>
+          <p class="hero-sub">Organizamos comités en toda la provincia junto a Myriam Bregman. Encontrá el comité más cercano y participá.</p>
+          <div class="hero-cta">
+            <a href="#comites" class="btn-primary">Ver los comités</a>
+            <a href="#encuesta" class="btn-ghost">Hacer la encuesta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg bg-dark"></div>
+      <div class="slide-content">
+        <div class="slide-inner">
+          <span class="eyebrow-poster">Mendoza en pie</span>
+          <h1>Trabajadores, jubilados y estudiantes <span class="accent">organizándose juntos</span></h1>
+          <p class="hero-sub">Seis comités funcionando en Capital y el Gran Mendoza. Sumá tu voz, tu tiempo o tu aporte.</p>
+          <div class="hero-cta">
+            <a href="#comites" class="btn-primary">Conocé tu comité</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-bg bg-gold"></div>
+      <div class="slide-content">
+        <div class="slide-inner">
+          <span class="eyebrow-poster">Participá</span>
+          <h1>Tu opinión define <span class="accent">la agenda de los comités</span></h1>
+          <p class="hero-sub">Respondé la encuesta y ayudanos a construir el plan de lucha en tu barrio.</p>
+          <div class="hero-cta">
+            <a href="#encuesta" class="btn-primary">Empezar encuesta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="slide-arrows">
+    <button class="prev" id="prevSlide" aria-label="Anterior">‹</button>
+    <button class="next" id="nextSlide" aria-label="Siguiente">›</button>
+  </div>
+  <div class="slide-dots" id="slideDots"></div>
+</section>
+
+<!-- ================= COMITES ================= -->
+<section id="comites">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Encontrá tu comité</span>
+      <h2>Los comités de Mendoza</h2>
+      <p>Cada comité tiene su propio espacio de Instagram: sumate, escribinos y participá de las actividades de tu zona.</p>
+    </div>
+  </div>
+  <div class="comites-grid wrap">
+    <!-- NOTA: reemplazar "href" por el link real de Instagram de cada comité -->
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">01</span>
+      <h3>Comité Capital</h3>
+      <span class="comite-zona">Ciudad de Mendoza</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">02</span>
+      <h3>Comité Godoy Cruz</h3>
+      <span class="comite-zona">Godoy Cruz</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">03</span>
+      <h3>Comité Guaymallén</h3>
+      <span class="comite-zona">Guaymallén</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">04</span>
+      <h3>Comité Las Heras</h3>
+      <span class="comite-zona">Las Heras</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">05</span>
+      <h3>Comité Maipú</h3>
+      <span class="comite-zona">Maipú</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+    <a class="comite-card" href="#" target="_blank" rel="noopener">
+      <span class="comite-num">06</span>
+      <h3>Comité San Rafael</h3>
+      <span class="comite-zona">San Rafael</span>
+      <span class="comite-link">Ver Instagram
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+<!-- ================= ENCUESTA ================= -->
+<section id="encuesta">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Tu voz importa</span>
+      <h2>Encuesta</h2>
+      <p>Cuatro preguntas rápidas. Al responder cada una, pasás automáticamente a la siguiente.</p>
+    </div>
+
+    <div class="quiz-box">
+      <div class="quiz-progress" id="quizProgress"></div>
+
+      <div class="quiz-step active" data-step="0">
+        <span class="q-num">Pregunta 1 de 4</span>
+        <h3>¿Cuál dirías que es el problema más urgente en tu barrio?</h3>
+        <div class="quiz-options">
+          <button>Salarios y costo de vida</button>
+          <button>Salud pública</button>
+          <button>Vivienda y alquileres</button>
+          <button>Transporte e infraestructura</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="1">
+        <span class="q-num">Pregunta 2 de 4</span>
+        <h3>¿Participaste antes en algún comité, asamblea o agrupación?</h3>
+        <div class="quiz-options">
+          <button>Sí, participo actualmente</button>
+          <button>Participé alguna vez</button>
+          <button>No, pero me interesa</button>
+          <button>No, todavía no lo sé</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="2">
+        <span class="q-num">Pregunta 3 de 4</span>
+        <h3>¿Cómo te gustaría colaborar con el comité de tu zona?</h3>
+        <div class="quiz-options">
+          <button>Asistiendo a reuniones</button>
+          <button>Difundiendo en redes sociales</button>
+          <button>Haciendo un aporte económico</button>
+          <button>Sumando a otras personas</button>
+        </div>
+      </div>
+
+      <div class="quiz-step" data-step="3">
+        <span class="q-num">Pregunta 4 de 4</span>
+        <h3>¿Con qué frecuencia te gustaría recibir novedades de los comités?</h3>
+        <div class="quiz-options">
+          <button>Todas las semanas</button>
+          <button>Una vez al mes</button>
+          <button>Solo para actividades importantes</button>
+          <button>Prefiero no recibir novedades</button>
+        </div>
+      </div>
+
+      <div class="quiz-final" id="quizFinal">
+        <h3>¡Gracias por responder!</h3>
+        <p>Tus respuestas nos ayudan a organizar mejor los comités en Mendoza.</p>
+        <button class="quiz-restart" id="quizRestart">Responder de nuevo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOVEDADES ================= -->
+<section id="novedades">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Actividad reciente</span>
+      <h2>Novedades</h2>
+      <p>Lo último de los comités de Mendoza.</p>
+    </div>
+
+    <!-- NOTA: reemplazar por las actividades reales de cada comité -->
+    <div class="novedades-grid">
+      <div class="novedad-card big">
+        <div class="novedad-img red"></div>
+        <div class="novedad-body">
+          <span class="novedad-fecha">28 de agosto</span>
+          <h3>Asamblea abierta en el Comité Capital</h3>
+          <p>Vecinos y trabajadores se reunieron para definir el plan de actividades de septiembre.</p>
+          <span class="novedad-tag">Ver más</span>
+        </div>
+      </div>
+      <div class="novedad-card">
+        <div class="novedad-img dark"></div>
+        <div class="novedad-body">
+          <span class="novedad-fecha">22 de agosto</span>
+          <h3>Jornada solidaria en Guaymallén</h3>
+          <p>El comité organizó una colecta y una charla sobre salud pública.</p>
+          <span class="novedad-tag">Ver más</span>
+        </div>
+      </div>
+      <div class="novedad-card">
+        <div class="novedad-img gold"></div>
+        <div class="novedad-body">
+          <span class="novedad-fecha">15 de agosto</span>
+          <h3>Nuevo comité en San Rafael</h3>
+          <p>Se conformó formalmente el sexto comité de la provincia.</p>
+          <span class="novedad-tag">Ver más</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACTO ================= -->
+<section id="contacto">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Hablemos</span>
+      <h2>Contacto</h2>
+      <p>Escribinos por cualquier consulta o para sumarte a un comité.</p>
+    </div>
+
+    <div class="contacto-grid">
+      <div>
+        <ul class="contacto-list">
+          <li>
+            <span class="ico">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+            </span>
+            <div>
+              <strong>Email</strong>
+              <span>comitesmendoza@ejemplo.com.ar</span>
+            </div>
+          </li>
+          <li>
+            <span class="ico">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.68 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0122 16.92z"/></svg>
+            </span>
+            <div>
+              <strong>Teléfono / WhatsApp</strong>
+              <span>+54 9 261 000-0000</span>
+            </div>
+          </li>
+          <li>
+            <span class="ico">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <div>
+              <strong>Sede central</strong>
+              <span>Ciudad de Mendoza, Argentina</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="contacto-social">
+          <!-- NOTA: reemplazar por las redes reales -->
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter / X" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.2-9.4L1 2h7.1l4.9 6.1L18.9 2z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-9h3l1-4h-4V7c0-1.1.3-1.9 2-1.9H17V1.1C16.7 1 15.6 1 14.4 1c-3 0-5 1.8-5 5.2V9H6v4h3.4v9H13z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form id="contactForm">
+        <div class="form-field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="text" placeholder="Tu nombre" required>
+        </div>
+        <div class="form-field">
+          <label for="mail">Email</label>
+          <input id="mail" type="email" placeholder="tu@email.com" required>
+        </div>
+        <div class="form-field">
+          <label for="msj">Mensaje</label>
+          <textarea id="msj" placeholder="Contanos en qué te gustaría participar..." required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="border-color:var(--rojo); cursor:pointer;">Enviar mensaje</button>
+        <p id="formOk" style="display:none; margin-top:14px; font-size:14px; color:var(--oro);">¡Gracias! Te vamos a responder a la brevedad.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APORTA ================= -->
+<section id="aporta">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="section-tag">Sostené la organización</span>
+      <h2>Aportá</h2>
+      <p>Los comités se sostienen con el aporte voluntario de trabajadores, jubilados y estudiantes. Elegí un monto o cargá el tuyo.</p>
+    </div>
+
+    <div class="aporta-box">
+      <div class="aporta-frecuencia">
+        <button class="selected" data-freq="unico">Aporte único</button>
+        <button data-freq="mensual">Aporte mensual</button>
+      </div>
+
+      <div class="monto-grid" id="montoGrid">
+        <button data-monto="2000">$2.000</button>
+        <button data-monto="5000">$5.000</button>
+        <button data-monto="10000">$10.000</button>
+        <button data-monto="otro">Otro</button>
+      </div>
+
+      <div class="monto-otro" id="montoOtro" style="display:none;">
+        <label for="montoInput">Ingresá el monto</label>
+        <input id="montoInput" type="number" min="100" placeholder="$">
+      </div>
+
+      <!-- NOTA: conectar este botón con la pasarela de pago (ej. Mercado Pago) -->
+      <button class="btn-aportar-final" id="btnAportar">Quiero aportar</button>
+      <p class="aporta-nota">El aporte es voluntario y no obligatorio. Al continuar vas a ser redirigido a la plataforma de pago segura de Comités Mendoza.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div class="logo footer-logo"><span class="dot"></span>COMITÉS MENDOZA</div>
+    <p>© 2026 Comités Mendoza. Sitio de organización territorial.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
