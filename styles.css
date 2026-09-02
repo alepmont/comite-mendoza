@@ -111,13 +111,11 @@ header {
   text-transform: uppercase;
 }
 
-.logo .dot {
-  width: 12px;
-  height: 12px;
-  background: var(--rojo);
+.logo-bandera {
+  width: 42px;
+  height: 30px;
   display: inline-block;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px rgba(216, 31, 42, 0.18);
+  object-fit: contain;
 }
 
 nav ul {
