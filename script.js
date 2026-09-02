@@ -49,14 +49,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function resetTimer() {
       clearInterval(timer);
-      timer = setInterval(next, 6000);
+      timer = setInterval(next, 5000);
     }
-
-    const nextButton = document.getElementById('nextSlide');
-    const prevButton = document.getElementById('prevSlide');
-
-    if (nextButton) nextButton.addEventListener('click', next);
-    if (prevButton) prevButton.addEventListener('click', prev);
 
     resetTimer();
   })();
